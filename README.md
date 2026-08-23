@@ -31,32 +31,31 @@ Audio upload → Whisper transcription → LLM analysis → Pydantic validation 
 - Meeting dashboard and per-meeting workspace with tabbed insights
 - 27 automated backend tests, all Groq calls mocked — no API key required to run them
 - Runnable WER and prompt-comparison evaluation scripts
-
 ## Screenshots
 
 ### Fieldnote — Landing Page
 
 ![Fieldnote Landing Page](screenshots/landing-page.png)
 
-### Fieldnote — Meetings Dashboard
-
-![Fieldnote Meetings Dashboard](screenshots/meeting-dashboard.png)
-
 ### Fieldnote — Meeting Summary
 
 ![Fieldnote Meeting Summary](screenshots/meeting-summary.png)
 
-### Fieldnote — Meeting Decisions
+### Fieldnote — Decisions
 
-![Fieldnote Meeting Decisions](screenshots/meeting-decisions.png)
+![Fieldnote Decisions](screenshots/decisions.png)
 
-### Fieldnote — Meeting Action Items
+### Fieldnote — Action Items
 
-![Fieldnote Meeting Action Items](screenshots/meeting-action-items.png)
+![Fieldnote Action Items](screenshots/action-items.png)
 
 ### Fieldnote — API Documentation
 
-![Fieldnote API Documentation](screenshots/api-docs.png)
+![Fieldnote API Documentation](screenshots/api-documentation.png)
+
+### Fieldnote — Backend Tests
+
+![Fieldnote Backend Tests](screenshots/backend-tests.png)
 
 ## Architecture
 
