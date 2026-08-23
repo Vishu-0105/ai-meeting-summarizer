@@ -32,6 +32,33 @@ Audio upload → Whisper transcription → LLM analysis → Pydantic validation 
 - 27 automated backend tests, all Groq calls mocked — no API key required to run them
 - Runnable WER and prompt-comparison evaluation scripts
 
+
+## Screenshots
+
+### Landing Page
+
+![Fieldnote Landing Page](screenshots/landing-page.png)
+
+### Meeting Dashboard
+
+![Meeting Dashboard](screenshots/meeting-dashboard.png)
+
+### Meeting Summary
+
+![Meeting Summary](screenshots/meeting-summary.png)
+
+### Decisions
+
+![Meeting Decisions](screenshots/meeting-decisions.png)
+
+### Action Items
+
+![Action Items](screenshots/meeting-action-items.png)
+
+### API Documentation
+
+![FastAPI API Documentation](screenshots/api-docs.png)
+
 ## Architecture
 
 See [`docs/architecture.md`](docs/architecture.md) for the full breakdown
