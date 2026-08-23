@@ -1,0 +1,58 @@
+@import "@fontsource/newsreader/400.css";
+@import "@fontsource/newsreader/500.css";
+@import "@fontsource/newsreader/600.css";
+@import "@fontsource/newsreader/400-italic.css";
+@import "@fontsource/newsreader/500-italic.css";
+@import "@fontsource/manrope/400.css";
+@import "@fontsource/manrope/500.css";
+@import "@fontsource/manrope/600.css";
+@import "@fontsource/manrope/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-ui: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfdfb;
+  color: #161a20;
+}
+
+::selection {
+  background-color: #e3f1e8;
+  color: #154f32;
+}
+
+/* Visible keyboard focus everywhere, matching the site's restrained aesthetic */
+:focus-visible {
+  outline: 2px solid #1f7a4d;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.bg-grid-fade {
+  background-image:
+    linear-gradient(to right, #e2e0d6 1px, transparent 1px),
+    linear-gradient(to bottom, #e2e0d6 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+}
